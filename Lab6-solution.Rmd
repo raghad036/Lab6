@@ -15,8 +15,8 @@ knitr::opts_chunk$set(eval = TRUE)
 Load the needed packages. Note: dsbox is not yet on CRAN. For now, you need to install it before you load the library. Uncomment, by deleting # from, the two lines of code below.
 
 ```{r message = FALSE}
-#install.packages("devtools")
-#devtools::install_github("rstudio-education/dsbox")
+install.packages("devtools")
+devtools::install_github("rstudio-education/dsbox")
 ```
 
 Load the libraries here.
